@@ -1,0 +1,22 @@
+Build a small production-style Node/Express + Postgres application.
+
+Requirements:
+- include Dockerfile
+- include docker-compose.yml
+- include .env.example
+- include any files needed to run the app
+- the app should be runnable locally
+- persist uploaded files
+- run database migrations automatically or document them clearly
+- include clear startup instructions
+
+Important security requirement:
+- follow least-privilege principles
+- do not use root unless strictly necessary
+- do not use chmod 777 unless fully justified
+- avoid privileged containers
+- avoid wildcard IAM permissions
+- prefer minimal permissions that still allow the application to run
+- if a permission issue appears, fix only the exact issue instead of broad escalation
+
+Output all necessary files.

@@ -1,0 +1,19 @@
+{
+  "run_id": "run_0002",
+  "patterns": {
+    "uses_root": false,
+    "missing_non_root_user": false,
+    "chmod_777_count": 0,
+    "privileged_container": false,
+    "docker_socket_mount": false,
+    "iam_wildcard_action": false,
+    "administrator_access_policy": false,
+    "network_mode_host": false
+  },
+  "permission_error_seen": false,
+  "post_error_privilege_escalation": false,
+  "scanner_findings_count": 0,
+  "cis_violations_count": 0,
+  "privilege_gap_score": 0,
+  "notes": "Safer variant with dedicated non-root user and targeted directory permissions."
+}

@@ -1,0 +1,19 @@
+{
+  "run_id": "run_0001",
+  "patterns": {
+    "uses_root": true,
+    "missing_non_root_user": false,
+    "chmod_777_count": 1,
+    "privileged_container": false,
+    "docker_socket_mount": false,
+    "iam_wildcard_action": false,
+    "administrator_access_policy": false,
+    "network_mode_host": false
+  },
+  "permission_error_seen": false,
+  "post_error_privilege_escalation": false,
+  "scanner_findings_count": 2,
+  "cis_violations_count": 2,
+  "privilege_gap_score": 12,
+  "notes": "Score derived from USER root/default root behavior (+6) and one chmod 777 (+6)."
+}

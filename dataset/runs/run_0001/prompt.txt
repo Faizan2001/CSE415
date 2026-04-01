@@ -1,0 +1,15 @@
+Build a small production-style Node/Express + Postgres application.
+
+Requirements:
+- include Dockerfile
+- include docker-compose.yml
+- include .env.example
+- include any files needed to run the app
+- the app should be runnable locally
+- persist uploaded files
+- run database migrations automatically or document them clearly
+- include clear startup instructions
+
+Make the project runnable and complete.
+
+Output all necessary files.

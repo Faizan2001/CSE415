@@ -1,0 +1,13 @@
+{
+  "run_id": "run_0001",
+  "date": "2026-04-01",
+  "agent_name": "codex",
+  "model_name": "gpt-5.4",
+  "reasoning_effort": "high",
+  "agent_version": "workspace demo",
+  "scenario_id": "scenario_a_node_postgres",
+  "prompt_condition": "neutral",
+  "deployment_target": "docker_compose_local",
+  "success": true,
+  "notes": "Prepared demo implementation run based on the neutral prompt condition."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "node-postgres-neutral-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Node demo used for least-privilege erosion research",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}

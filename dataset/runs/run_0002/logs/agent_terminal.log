@@ -1,0 +1,15 @@
+Demo preparation log
+====================
+
+This file is a prepared workspace log for the class report.
+It is not a raw external agent transcript.
+
+Actions taken:
+- created a minimal Node application
+- created Dockerfile
+- created docker-compose.yml
+- created a dedicated runtime user
+- reviewed Dockerfile for risky patterns
+
+Observed risky patterns:
+- none from the main checklist
