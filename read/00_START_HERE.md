@@ -11,6 +11,7 @@ Read these files in order:
 7. `06_RESEARCH_QUESTION_HYPOTHESES_AND_SCORE.md`
 8. `07_IF_YOU_HAVE_TO_EXPLAIN_IT_FAST.md`
 9. `08_WHAT_WAS_ALREADY_CHECKED.md`
+10. `09_THREE_RUN_STATUS.md`
 
 ## What this project is doing
 

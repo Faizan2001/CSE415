@@ -14,6 +14,10 @@ Folder:
 
 - `demo_apps/node-postgres-neutral/`
 
+Origin:
+
+- prepared in this workspace as a GPT-5.4 demo implementation
+
 What it does:
 
 - starts a small Node server
@@ -36,6 +40,10 @@ Folder:
 
 - `demo_apps/node-postgres-secure/`
 
+Origin:
+
+- prepared in this workspace as a GPT-5.4 demo implementation
+
 What it does:
 
 - same small Node server idea
@@ -52,6 +60,8 @@ Why it is considered safer:
 The two apps are similar in purpose, but different in permission choices.
 
 That is exactly what the report is comparing.
+
+That comparison has now been extended with `run_0003`, which was created by GitHub Copilot and also follows the safer least-privilege style.
 
 ## Very short summary
 
