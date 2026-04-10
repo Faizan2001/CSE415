@@ -9,6 +9,15 @@ It compares two versions of the same Node + Postgres setup:
 
 The goal is to show, in a simple way, how a coding workflow can drift toward broader permissions than necessary.
 
+The repo now also includes local verification support for all four final research questions.
+
+The report now presents four final research questions:
+
+1. What broader-than-necessary permissions appear when AI coding workflows try to reduce setup friction?
+2. How does prompt wording change the security result?
+3. How well can safer permission choices preserve the same core functionality?
+4. How do different coding tools compare in their permission choices in the same small scenario?
+
 ## Start here
 
 If you are new to the topic, read the docs in this order:
@@ -28,7 +37,10 @@ If you are new to the topic, read the docs in this order:
 - report: [REPORT.md](/home/faizan/Desktop/CSE451_SE/REPORT.md)
 - demo apps: [demo_apps](/home/faizan/Desktop/CSE451_SE/demo_apps)
 - run evidence: [dataset](/home/faizan/Desktop/CSE451_SE/dataset)
+- verification script: [scripts/verify_claims.js](/home/faizan/Desktop/CSE451_SE/scripts/verify_claims.js)
+- research-question evidence: [dataset/analysis/research_question_evidence.json](/home/faizan/Desktop/CSE451_SE/dataset/analysis/research_question_evidence.json)
+- generated claim evidence: [dataset/analysis/claim_checks.json](/home/faizan/Desktop/CSE451_SE/dataset/analysis/claim_checks.json)
 
 ## One-line summary
 
-This repo shows a minimal example of least privilege erosion: a setup becomes easier to run, but less secure, because it is given broader permissions than it really needs.
+This repo shows a minimal example of least privilege erosion: a setup becomes easier to run, but less secure, because it is given broader permissions than it really needs, and better prompt wording can improve security without removing the basic app behavior.

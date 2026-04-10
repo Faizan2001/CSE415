@@ -6,7 +6,15 @@ This file explains the research framing in simple words.
 
 The project asks:
 
-> Do AI coding workflows use broader permissions than necessary just to keep things running smoothly?
+> What broader permissions appear when AI coding workflows try to keep things running smoothly?
+
+It also asks:
+
+> How does prompt wording change the security result?
+
+> How well can safer permission choices preserve the same core functionality?
+
+> How do different coding tools compare in their permission choices in the same small scenario?
 
 ## Why ask this?
 
@@ -20,9 +28,17 @@ but also:
 
 The danger is that the workflow may choose the easy fix instead of the safe fix.
 
-## The three hypothesis ideas
+## The four hypothesis ideas
 
-### H1: Default Over-Privilege
+### H1: How Prompt Wording Matters
+
+Small changes in the instructions can change the security result.
+
+In simple words:
+
+> if you ask more carefully, you may get a safer setup.
+
+### H2: What Default Over-Privilege Looks Like
 
 The generated setup uses risky permissions more often than a safer version should.
 
@@ -30,15 +46,15 @@ In simple words:
 
 > the default setup is too powerful.
 
-### H2: Error-Driven Escalation
+### H3: How Functionality Is Preserved
 
-When a permission problem appears, the workflow responds by increasing privilege.
+A safer setup can still do the same basic job.
 
 In simple words:
 
-> the system hits an error, then solves it by making permissions bigger.
+> safer does not have to mean broken.
 
-### H3: Tool Differences
+### H4: How Tool Differences Appear
 
 Different coding agents may behave differently.
 
@@ -67,4 +83,8 @@ The neutral version gets a higher score.
 
 The least-privilege version gets a lower score.
 
-That is the whole point of the demonstration.
+The extra local check also showed that both demo apps still answered the same core endpoints.
+
+The tool comparison also showed that the GitHub Copilot run followed the same safer pattern as the least-privilege GPT-5.4 run.
+
+That is the main point of the demonstration.
